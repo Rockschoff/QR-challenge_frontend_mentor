@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px;
+}
+.main {
+  background-color: hsl(212, 45%, 89%);
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-content: center;
+  justify-items: center;
+}
+.card-body > img {
+  border-radius: 15px;
+}
+
+.card-body > h4 {
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 10px;
+  width: 80%;
+  position: relative;
+  left: 20px;
+}
+
+.card-body > p {
+  margin-top: 10px;
+  color: hsl(212, 45%, 89%);
+}
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
